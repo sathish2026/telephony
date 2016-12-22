@@ -495,4 +495,11 @@ public class PhoneFactory {
     public static SubscriptionInfoUpdater getSubscriptionInfoUpdater() {
         return sSubInfoRecordUpdater;
     }
+    //VENDOR_EDIT
+    /**@hide*/
+    public static PhoneSwitcher oemGetPhoneSwitcher()
+    {
+        return sPhoneSwitcher;
+    }
+    //end
 }
